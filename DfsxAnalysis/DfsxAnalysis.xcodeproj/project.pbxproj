@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4881194625AAE1DC00745D2C /* DSTrackRecordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4881194525AAE1DC00745D2C /* DSTrackRecordManager.swift */; };
+		E0B1112D86CBA02847FA7EBB /* Pods_DfsxAnalysis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13511C89A5BB1D983867BD43 /* Pods_DfsxAnalysis.framework */; };
+		ED109E1825762360007BA52C /* String+DBPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED109E1725762360007BA52C /* String+DBPath.swift */; };
+		ED109ED0257766A9007BA52C /* DSPageDurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED109ECF257766A9007BA52C /* DSPageDurationManager.swift */; };
+		ED3605822579CDDE008BDCE5 /* DSFactoryInfoTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3605812579CDDE008BDCE5 /* DSFactoryInfoTool.swift */; };
+		ED3605852579D268008BDCE5 /* DSEventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3605842579D268008BDCE5 /* DSEventType.swift */; };
+		ED3605892579DB28008BDCE5 /* String+Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3605882579DB28008BDCE5 /* String+Json.swift */; };
+		ED38573C257880E50096FD5D /* Date+ms.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED38573B257880E50096FD5D /* Date+ms.swift */; };
+		ED3857B12578B9630096FD5D /* DSAnalysisAppdelegateHook.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3857B02578B9630096FD5D /* DSAnalysisAppdelegateHook.swift */; };
+		ED3EF3952574839A00613B84 /* DSMoyaPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EF3942574839A00613B84 /* DSMoyaPlugin.swift */; };
+		ED3EF39C25748CCA00613B84 /* DSAppInfoTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EF39B25748CCA00613B84 /* DSAppInfoTool.swift */; };
+		ED3EF39F257490D900613B84 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3EF39E257490D900613B84 /* CoreTelephony.framework */; };
+		ED6DE0A92574BFCD008E3FE7 /* DSSessionGeneralInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6DE0A82574BFCD008E3FE7 /* DSSessionGeneralInfo.swift */; };
+		ED6DE0AF2574C66B008E3FE7 /* DSSessionEventInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6DE0AE2574C66B008E3FE7 /* DSSessionEventInfo.swift */; };
+		ED6DE0D52574DC05008E3FE7 /* DSPosterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6DE0D42574DC05008E3FE7 /* DSPosterType.swift */; };
+		ED6DE0DF2574E5FE008E3FE7 /* DSDataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6DE0DE2574E5FE008E3FE7 /* DSDataBaseManager.swift */; };
+		ED6DE0E22574E6FA008E3FE7 /* DSSessionConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6DE0E12574E6FA008E3FE7 /* DSSessionConfig.swift */; };
+		ED6DE0E82574E7AF008E3FE7 /* String+DES.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6DE0E72574E7AF008E3FE7 /* String+DES.swift */; };
+		ED6DE0EC2574E9A1008E3FE7 /* DSLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6DE0EB2574E9A1008E3FE7 /* DSLogger.swift */; };
+		ED6DE0EF2574F1D4008E3FE7 /* DSPageTrackInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6DE0EE2574F1D4008E3FE7 /* DSPageTrackInfo.swift */; };
+		ED6DE1622575D235008E3FE7 /* DSFactoryUploadInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6DE1612575D235008E3FE7 /* DSFactoryUploadInfo.swift */; };
+		ED6DE1702575D48F008E3FE7 /* Dfsxumbrella.h in Sources */ = {isa = PBXBuildFile; fileRef = ED6DE16F2575D48F008E3FE7 /* Dfsxumbrella.h */; };
+		ED6DE1742575D4B0008E3FE7 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = ED6DE1732575D4B0008E3FE7 /* module.modulemap */; };
+		ED6DE1D52575E38A008E3FE7 /* DSGeneralInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6DE1D42575E38A008E3FE7 /* DSGeneralInfo.swift */; };
+		ED6DE1D92575EC33008E3FE7 /* DSUploadAnalysisSevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6DE1D82575EC33008E3FE7 /* DSUploadAnalysisSevice.swift */; };
+		ED6DE1DC2575ED58008E3FE7 /* DSAnalysisInternal+Hook.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6DE1DB2575ED58008E3FE7 /* DSAnalysisInternal+Hook.swift */; };
+		ED6DE1DF2575EDC7008E3FE7 /* Dispatch+Once.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6DE1DE2575EDC7008E3FE7 /* Dispatch+Once.swift */; };
+		ED6DE1E22575F0A2008E3FE7 /* Int+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6DE1E12575F0A2008E3FE7 /* Int+Random.swift */; };
+		EDB673612570EDE90047CB00 /* DSAnalysisTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB673602570EDE90047CB00 /* DSAnalysisTarget.swift */; };
+		EDECEB962570D51F002CC76E /* DfsxAnalysis.h in Headers */ = {isa = PBXBuildFile; fileRef = EDECEB942570D51F002CC76E /* DfsxAnalysis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDECEBCA2570DA00002CC76E /* DSAnalysisManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDECEBC92570DA00002CC76E /* DSAnalysisManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13511C89A5BB1D983867BD43 /* Pods_DfsxAnalysis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DfsxAnalysis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9151A2FE997CCE57E4809A /* Pods-DfsxAnalysis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DfsxAnalysis.debug.xcconfig"; path = "Target Support Files/Pods-DfsxAnalysis/Pods-DfsxAnalysis.debug.xcconfig"; sourceTree = "<group>"; };
+		4881194525AAE1DC00745D2C /* DSTrackRecordManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSTrackRecordManager.swift; sourceTree = "<group>"; };
+		96E1B65103A55FAADF10853F /* Pods-DfsxAnalysis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DfsxAnalysis.release.xcconfig"; path = "Target Support Files/Pods-DfsxAnalysis/Pods-DfsxAnalysis.release.xcconfig"; sourceTree = "<group>"; };
+		ED109E1725762360007BA52C /* String+DBPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+DBPath.swift"; sourceTree = "<group>"; };
+		ED109E432576329D007BA52C /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED109ECF257766A9007BA52C /* DSPageDurationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSPageDurationManager.swift; sourceTree = "<group>"; };
+		ED3605812579CDDE008BDCE5 /* DSFactoryInfoTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSFactoryInfoTool.swift; sourceTree = "<group>"; };
+		ED3605842579D268008BDCE5 /* DSEventType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSEventType.swift; sourceTree = "<group>"; };
+		ED3605882579DB28008BDCE5 /* String+Json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Json.swift"; sourceTree = "<group>"; };
+		ED38573B257880E50096FD5D /* Date+ms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+ms.swift"; sourceTree = "<group>"; };
+		ED3857B02578B9630096FD5D /* DSAnalysisAppdelegateHook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSAnalysisAppdelegateHook.swift; sourceTree = "<group>"; };
+		ED3EF3942574839A00613B84 /* DSMoyaPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSMoyaPlugin.swift; sourceTree = "<group>"; };
+		ED3EF39B25748CCA00613B84 /* DSAppInfoTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSAppInfoTool.swift; sourceTree = "<group>"; };
+		ED3EF39E257490D900613B84 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		ED6DE0A82574BFCD008E3FE7 /* DSSessionGeneralInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSSessionGeneralInfo.swift; sourceTree = "<group>"; };
+		ED6DE0AE2574C66B008E3FE7 /* DSSessionEventInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSSessionEventInfo.swift; sourceTree = "<group>"; };
+		ED6DE0D42574DC05008E3FE7 /* DSPosterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSPosterType.swift; sourceTree = "<group>"; };
+		ED6DE0DE2574E5FE008E3FE7 /* DSDataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSDataBaseManager.swift; sourceTree = "<group>"; };
+		ED6DE0E12574E6FA008E3FE7 /* DSSessionConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSSessionConfig.swift; sourceTree = "<group>"; };
+		ED6DE0E72574E7AF008E3FE7 /* String+DES.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+DES.swift"; sourceTree = "<group>"; };
+		ED6DE0EB2574E9A1008E3FE7 /* DSLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSLogger.swift; sourceTree = "<group>"; };
+		ED6DE0EE2574F1D4008E3FE7 /* DSPageTrackInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSPageTrackInfo.swift; sourceTree = "<group>"; };
+		ED6DE1612575D235008E3FE7 /* DSFactoryUploadInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSFactoryUploadInfo.swift; sourceTree = "<group>"; };
+		ED6DE16F2575D48F008E3FE7 /* Dfsxumbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dfsxumbrella.h; sourceTree = "<group>"; };
+		ED6DE1732575D4B0008E3FE7 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		ED6DE1D42575E38A008E3FE7 /* DSGeneralInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSGeneralInfo.swift; sourceTree = "<group>"; };
+		ED6DE1D82575EC33008E3FE7 /* DSUploadAnalysisSevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSUploadAnalysisSevice.swift; sourceTree = "<group>"; };
+		ED6DE1DB2575ED58008E3FE7 /* DSAnalysisInternal+Hook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DSAnalysisInternal+Hook.swift"; sourceTree = "<group>"; };
+		ED6DE1DE2575EDC7008E3FE7 /* Dispatch+Once.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dispatch+Once.swift"; sourceTree = "<group>"; };
+		ED6DE1E12575F0A2008E3FE7 /* Int+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Random.swift"; sourceTree = "<group>"; };
+		EDB673602570EDE90047CB00 /* DSAnalysisTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSAnalysisTarget.swift; sourceTree = "<group>"; };
+		EDECEB912570D51F002CC76E /* DfsxAnalysis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DfsxAnalysis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDECEB942570D51F002CC76E /* DfsxAnalysis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DfsxAnalysis.h; sourceTree = "<group>"; };
+		EDECEB952570D51F002CC76E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDECEBC92570DA00002CC76E /* DSAnalysisManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSAnalysisManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDECEB8E2570D51F002CC76E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3EF39F257490D900613B84 /* CoreTelephony.framework in Frameworks */,
+				E0B1112D86CBA02847FA7EBB /* Pods_DfsxAnalysis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16D1C6EAA26A2AB9DEF39463 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED109E432576329D007BA52C /* SQLite.framework */,
+				ED3EF39E257490D900613B84 /* CoreTelephony.framework */,
+				13511C89A5BB1D983867BD43 /* Pods_DfsxAnalysis.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92DCC8DD312EB2EC1CA216A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D9151A2FE997CCE57E4809A /* Pods-DfsxAnalysis.debug.xcconfig */,
+				96E1B65103A55FAADF10853F /* Pods-DfsxAnalysis.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../dfsxanalysisDemo/Pods;
+			sourceTree = "<group>";
+		};
+		ED6DE0E62574E799008E3FE7 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				ED6DE1DB2575ED58008E3FE7 /* DSAnalysisInternal+Hook.swift */,
+				ED6DE0E72574E7AF008E3FE7 /* String+DES.swift */,
+				ED6DE1DE2575EDC7008E3FE7 /* Dispatch+Once.swift */,
+				ED6DE1E12575F0A2008E3FE7 /* Int+Random.swift */,
+				ED109E1725762360007BA52C /* String+DBPath.swift */,
+				ED38573B257880E50096FD5D /* Date+ms.swift */,
+				ED3605882579DB28008BDCE5 /* String+Json.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		EDECEB872570D51F002CC76E = {
+			isa = PBXGroup;
+			children = (
+				EDECEB932570D51F002CC76E /* DfsxAnalysis */,
+				EDECEB922570D51F002CC76E /* Products */,
+				92DCC8DD312EB2EC1CA216A6 /* Pods */,
+				16D1C6EAA26A2AB9DEF39463 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDECEB922570D51F002CC76E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDECEB912570D51F002CC76E /* DfsxAnalysis.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDECEB932570D51F002CC76E /* DfsxAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				EDECEB942570D51F002CC76E /* DfsxAnalysis.h */,
+				ED6DE16F2575D48F008E3FE7 /* Dfsxumbrella.h */,
+				ED6DE1732575D4B0008E3FE7 /* module.modulemap */,
+				EDECEB952570D51F002CC76E /* Info.plist */,
+				EDECEBC62570D935002CC76E /* database */,
+				EDECEBC72570D935002CC76E /* generalmodel */,
+				EDECEBC82570D935002CC76E /* netapi */,
+				EDECEBC42570D935002CC76E /* sharemanager */,
+				ED6DE0E62574E799008E3FE7 /* extension */,
+				EDECEBC52570D935002CC76E /* tools */,
+			);
+			path = DfsxAnalysis;
+			sourceTree = "<group>";
+		};
+		EDECEBC42570D935002CC76E /* sharemanager */ = {
+			isa = PBXGroup;
+			children = (
+				EDECEBC92570DA00002CC76E /* DSAnalysisManager.swift */,
+				ED109ECF257766A9007BA52C /* DSPageDurationManager.swift */,
+			);
+			path = sharemanager;
+			sourceTree = "<group>";
+		};
+		EDECEBC52570D935002CC76E /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				ED3EF39B25748CCA00613B84 /* DSAppInfoTool.swift */,
+				ED6DE0EB2574E9A1008E3FE7 /* DSLogger.swift */,
+				ED6DE1D82575EC33008E3FE7 /* DSUploadAnalysisSevice.swift */,
+				ED3857B02578B9630096FD5D /* DSAnalysisAppdelegateHook.swift */,
+				4881194525AAE1DC00745D2C /* DSTrackRecordManager.swift */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		EDECEBC62570D935002CC76E /* database */ = {
+			isa = PBXGroup;
+			children = (
+				ED6DE0DE2574E5FE008E3FE7 /* DSDataBaseManager.swift */,
+			);
+			path = database;
+			sourceTree = "<group>";
+		};
+		EDECEBC72570D935002CC76E /* generalmodel */ = {
+			isa = PBXGroup;
+			children = (
+				ED3605842579D268008BDCE5 /* DSEventType.swift */,
+				ED6DE0E12574E6FA008E3FE7 /* DSSessionConfig.swift */,
+				ED6DE1D42575E38A008E3FE7 /* DSGeneralInfo.swift */,
+				ED6DE0A82574BFCD008E3FE7 /* DSSessionGeneralInfo.swift */,
+				ED6DE0AE2574C66B008E3FE7 /* DSSessionEventInfo.swift */,
+				ED6DE0EE2574F1D4008E3FE7 /* DSPageTrackInfo.swift */,
+				ED6DE0D42574DC05008E3FE7 /* DSPosterType.swift */,
+				ED6DE1612575D235008E3FE7 /* DSFactoryUploadInfo.swift */,
+				ED3605812579CDDE008BDCE5 /* DSFactoryInfoTool.swift */,
+			);
+			path = generalmodel;
+			sourceTree = "<group>";
+		};
+		EDECEBC82570D935002CC76E /* netapi */ = {
+			isa = PBXGroup;
+			children = (
+				EDB673602570EDE90047CB00 /* DSAnalysisTarget.swift */,
+				ED3EF3942574839A00613B84 /* DSMoyaPlugin.swift */,
+			);
+			path = netapi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EDECEB8C2570D51F002CC76E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDECEB962570D51F002CC76E /* DfsxAnalysis.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EDECEB902570D51F002CC76E /* DfsxAnalysis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDECEB992570D51F002CC76E /* Build configuration list for PBXNativeTarget "DfsxAnalysis" */;
+			buildPhases = (
+				538B173C98242C1A13560166 /* [CP] Check Pods Manifest.lock */,
+				EDECEB8C2570D51F002CC76E /* Headers */,
+				EDECEB8D2570D51F002CC76E /* Sources */,
+				EDECEB8E2570D51F002CC76E /* Frameworks */,
+				EDECEB8F2570D51F002CC76E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DfsxAnalysis;
+			productName = DfsxAnalysis;
+			productReference = EDECEB912570D51F002CC76E /* DfsxAnalysis.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDECEB882570D51F002CC76E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					EDECEB902570D51F002CC76E = {
+						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1210;
+					};
+				};
+			};
+			buildConfigurationList = EDECEB8B2570D51F002CC76E /* Build configuration list for PBXProject "DfsxAnalysis" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDECEB872570D51F002CC76E;
+			productRefGroup = EDECEB922570D51F002CC76E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDECEB902570D51F002CC76E /* DfsxAnalysis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDECEB8F2570D51F002CC76E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		538B173C98242C1A13560166 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DfsxAnalysis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDECEB8D2570D51F002CC76E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6DE1D92575EC33008E3FE7 /* DSUploadAnalysisSevice.swift in Sources */,
+				EDECEBCA2570DA00002CC76E /* DSAnalysisManager.swift in Sources */,
+				4881194625AAE1DC00745D2C /* DSTrackRecordManager.swift in Sources */,
+				ED6DE1E22575F0A2008E3FE7 /* Int+Random.swift in Sources */,
+				ED6DE0A92574BFCD008E3FE7 /* DSSessionGeneralInfo.swift in Sources */,
+				ED6DE0AF2574C66B008E3FE7 /* DSSessionEventInfo.swift in Sources */,
+				ED6DE0D52574DC05008E3FE7 /* DSPosterType.swift in Sources */,
+				ED6DE1622575D235008E3FE7 /* DSFactoryUploadInfo.swift in Sources */,
+				ED6DE1742575D4B0008E3FE7 /* module.modulemap in Sources */,
+				ED3605852579D268008BDCE5 /* DSEventType.swift in Sources */,
+				ED6DE1702575D48F008E3FE7 /* Dfsxumbrella.h in Sources */,
+				ED6DE0EF2574F1D4008E3FE7 /* DSPageTrackInfo.swift in Sources */,
+				ED6DE1DC2575ED58008E3FE7 /* DSAnalysisInternal+Hook.swift in Sources */,
+				ED6DE0E22574E6FA008E3FE7 /* DSSessionConfig.swift in Sources */,
+				ED6DE0E82574E7AF008E3FE7 /* String+DES.swift in Sources */,
+				ED109ED0257766A9007BA52C /* DSPageDurationManager.swift in Sources */,
+				ED38573C257880E50096FD5D /* Date+ms.swift in Sources */,
+				EDB673612570EDE90047CB00 /* DSAnalysisTarget.swift in Sources */,
+				ED6DE0EC2574E9A1008E3FE7 /* DSLogger.swift in Sources */,
+				ED3EF39C25748CCA00613B84 /* DSAppInfoTool.swift in Sources */,
+				ED3605892579DB28008BDCE5 /* String+Json.swift in Sources */,
+				ED3857B12578B9630096FD5D /* DSAnalysisAppdelegateHook.swift in Sources */,
+				ED3EF3952574839A00613B84 /* DSMoyaPlugin.swift in Sources */,
+				ED6DE1D52575E38A008E3FE7 /* DSGeneralInfo.swift in Sources */,
+				ED6DE0DF2574E5FE008E3FE7 /* DSDataBaseManager.swift in Sources */,
+				ED109E1825762360007BA52C /* String+DBPath.swift in Sources */,
+				ED3605822579CDDE008BDCE5 /* DSFactoryInfoTool.swift in Sources */,
+				ED6DE1DF2575EDC7008E3FE7 /* Dispatch+Once.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EDECEB972570D51F002CC76E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EDECEB982570D51F002CC76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EDECEB9A2570D51F002CC76E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9151A2FE997CCE57E4809A /* Pods-DfsxAnalysis.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DfsxAnalysis/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ac.monekry.dsanalytics.DfsxAnalysis;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDECEB9B2570D51F002CC76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96E1B65103A55FAADF10853F /* Pods-DfsxAnalysis.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DfsxAnalysis/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ac.monekry.dsanalytics.DfsxAnalysis;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDECEB8B2570D51F002CC76E /* Build configuration list for PBXProject "DfsxAnalysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDECEB972570D51F002CC76E /* Debug */,
+				EDECEB982570D51F002CC76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDECEB992570D51F002CC76E /* Build configuration list for PBXNativeTarget "DfsxAnalysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDECEB9A2570D51F002CC76E /* Debug */,
+				EDECEB9B2570D51F002CC76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDECEB882570D51F002CC76E /* Project object */;
+}

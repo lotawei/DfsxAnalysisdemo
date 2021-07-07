@@ -1,0 +1,10 @@
+//
+//  dfsxanalymodule.map.swift
+//  DfsxAnalysis
+//
+//  Created by lotawei on 2020/12/1.
+//
+module DfsxAnalysis {
+    header "Dfsxumbrella.h"
+    export *
+}

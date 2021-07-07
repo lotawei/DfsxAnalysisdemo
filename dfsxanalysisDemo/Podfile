@@ -1,0 +1,30 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '10.0'
+def pods_common
+  pod 'Moya'
+  pod 'WCDB.swift'
+  pod 'AppDelegateHooks', '~> 0.0.1'
+end
+use_frameworks!
+workspace 'dfsxanalysisDemo'
+
+target 'dfsxanalysisDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+ 
+	pods_common
+  # Pods for dfsxanalysisDemo
+
+  target 'dfsxanalysisDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'dfsxanalysisDemoUITests' do
+    # Pods for testing
+  end
+
+end
+target 'DfsxAnalysis' do
+    project '../DfsxAnalysis/DfsxAnalysis.xcodeproj'
+    pods_common
+end
